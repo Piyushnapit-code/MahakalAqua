@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Mahakal Aqua</title>
+  <desc id="desc">Water droplet icon for Mahakal Aqua</desc>
+  <defs>
+    <linearGradient id="dropGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#0ea5e9"/>
+    </linearGradient>
+    <linearGradient id="ringGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1d4ed8" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#0ea5e9" stop-opacity="0.4"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="16" fill="#0f172a"/>
+  <circle cx="32" cy="34" r="18" fill="url(#ringGradient)" />
+  <path
+    d="M32 10C26 19 22 24.5 22 31.5C22 38.4 26.9 44 32 44C37.1 44 42 38.4 42 31.5C42 24.5 38 19 32 10Z"
+    fill="url(#dropGradient)"
+  />
+  <path
+    d="M28.5 30.5C30 28 32 26.8 34.2 26.8"
+    stroke="#e0f2fe"
+    stroke-width="2.2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <circle cx="30" cy="24" r="2" fill="#e0f2fe" fill-opacity="0.9"/>
+</svg>
+
+
+
