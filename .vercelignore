@@ -1,0 +1,12 @@
+node_modules
+.git
+.gitignore
+README.md
+.env.example
+backend/logs
+backend/uploads
+frontend/dist
+.DS_Store
+*.log
+.vscode
+.idea

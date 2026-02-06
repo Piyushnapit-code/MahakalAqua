@@ -1,0 +1,18 @@
+{
+  "name": "mahakal-aqua",
+  "version": "1.0.0",
+  "description": "MahakalAqua - Water & RO Service Provider",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "install:all": "npm install && cd frontend && npm install && cd ../backend && npm install",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "build:backend": "cd backend && npm run build",
+    "build": "npm run build:frontend",
+    "lint": "cd frontend && npm run lint && cd ../backend && npm run lint"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
